@@ -17,3 +17,16 @@ cp .env.example .env
 ```
 docker-compose up -d nginx mysql phpmyadmin rabbitmq
 ```
+
+### Crontab
+```
+docker-compose exec workspace bash
+```
+
+```
+crontab -e
+```
+
+```
+* * * * * cd /var/www/api && php artisan schedule:run >> /dev/null 2>&1
+```
