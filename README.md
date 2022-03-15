@@ -1,8 +1,7 @@
 
 # PROVA PRÁTICA PARA PROGRAMADOR PHP II
 
-### Passo a passo
-Clone Repositório
+### Clone o Repositório
 ```sh
 git clone https://github.com/dalcero/tray-homework-laradock.git
 tray-homework-laradock
